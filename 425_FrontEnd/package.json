@@ -1,0 +1,45 @@
+{
+  "name": "425",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "webpack": "webpack --watch --progress --color --config webpack.config.js",
+    "build": "webpack -p --watch --progress --color --config webpack.pro.config.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "mongoose": "^5.3.13",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "antd": "^3.10.8",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-import": "^1.11.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "compression-webpack-plugin": "^2.0.0",
+    "css-loader": "^1.0.1",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "node-loader": "^0.6.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "segmentit": "^2.0.1",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "video-react": "^0.13.3",
+    "webpack": "^4.26.0",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.1.2"
+  }
+}
